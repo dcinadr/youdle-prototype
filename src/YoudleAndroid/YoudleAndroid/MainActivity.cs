@@ -11,16 +11,17 @@ namespace YoudleAndroid
     [Activity(Label = "YoUdle", MainLauncher = false, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
+		//private GestureDetector _gestureDetector;
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
-            var h = this.ActionBar.Height;
-
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+			var _cardView = FindViewById<Android.Support.V7.Widget.CardView> (Resource.Id.card1);
+			//_gestureDetector = new GestureDetector (_cardView);
 
             // Get our button from the layout resource,
             // and attach an event to it

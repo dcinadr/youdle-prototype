@@ -89,6 +89,12 @@ namespace YoudleAndroid
 			// aapt resource value: 0x7f050003
 			public const int cardview_shadow_start_color = 2131034115;
 			
+			// aapt resource value: 0x7f050004
+			public const int youdle_blue = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int youdle_text_on_blue = 2131034117;
+			
 			static Color()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -146,35 +152,38 @@ namespace YoudleAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090005
-			public const int btnHappyHolidays = 2131296261;
-			
-			// aapt resource value: 0x7f090002
-			public const int btnMaybe = 2131296258;
-			
 			// aapt resource value: 0x7f090006
-			public const int btnMerryChristmas = 2131296262;
+			public const int btnHappyHolidays = 2131296262;
 			
 			// aapt resource value: 0x7f090003
-			public const int btnNo = 2131296259;
-			
-			// aapt resource value: 0x7f090009
-			public const int btnNo1 = 2131296265;
-			
-			// aapt resource value: 0x7f090001
-			public const int btnYes = 2131296257;
-			
-			// aapt resource value: 0x7f090008
-			public const int btnYes1 = 2131296264;
-			
-			// aapt resource value: 0x7f090000
-			public const int text = 2131296256;
-			
-			// aapt resource value: 0x7f090004
-			public const int text1 = 2131296260;
+			public const int btnMaybe = 2131296259;
 			
 			// aapt resource value: 0x7f090007
-			public const int text2 = 2131296263;
+			public const int btnMerryChristmas = 2131296263;
+			
+			// aapt resource value: 0x7f090004
+			public const int btnNo = 2131296260;
+			
+			// aapt resource value: 0x7f09000a
+			public const int btnNo1 = 2131296266;
+			
+			// aapt resource value: 0x7f090002
+			public const int btnYes = 2131296258;
+			
+			// aapt resource value: 0x7f090009
+			public const int btnYes1 = 2131296265;
+			
+			// aapt resource value: 0x7f090000
+			public const int card1 = 2131296256;
+			
+			// aapt resource value: 0x7f090001
+			public const int text = 2131296257;
+			
+			// aapt resource value: 0x7f090005
+			public const int text1 = 2131296261;
+			
+			// aapt resource value: 0x7f090008
+			public const int text2 = 2131296264;
 			
 			static Id()
 			{
@@ -254,6 +263,9 @@ namespace YoudleAndroid
 			
 			// aapt resource value: 0x7f070003
 			public const int Theme_Splash = 2131165187;
+			
+			// aapt resource value: 0x7f070005
+			public const int YoudleTheme = 2131165189;
 			
 			static Style()
 			{
