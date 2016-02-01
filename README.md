@@ -1,2 +1,2 @@
-# youdle-prototype
-Youdle Prototype
+# youdle-xamarin-prototype
+Youdle Prototype using the Xamarin framework.
